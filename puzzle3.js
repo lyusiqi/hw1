@@ -1,13 +1,13 @@
 down
 down
-get the color
-save the color
+get the color 
+save the color as firstColorSeen
 down
 down
 down
 right
 right
-set the color
+set the color remember firstColorSeen
 right
 right
 up
