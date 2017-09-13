@@ -1,15 +1,19 @@
 right
-if getColor is red
+if getColor = red
 |up
-if getColor is blue
+|up
+|up
+direction = 0
+if getColor = blue
 |down
-save direction
-|up
-|up
-if getColor is red
+|down
+|down
+direction = 1
+if getColor = red
 |left
-if getColor is blue
+else
 |right
-save direction
+direction == 0
 |up
-get the dots
+else
+|down
